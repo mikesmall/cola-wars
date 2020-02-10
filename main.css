@@ -1,3 +1,10 @@
-h1 {
+.container {
   z-index: 100;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  text-shadow: 1px 1px #000000;
 }
