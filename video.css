@@ -1,5 +1,5 @@
 .home-banner .slide .video-slide {
-  background-color: #000;
+  background-color: #000000;
 }
 
 .home-banner.loading .video-background {
@@ -9,7 +9,7 @@
 .video-background {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 0%;
   padding-top: 56.25%;
   width: 100%;
   -webkit-transform: translateY(-50%);

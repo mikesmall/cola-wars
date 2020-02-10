@@ -1,0 +1,85 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald');
+
+body {
+  background-color: #000000;
+  padding: 0 40px;
+}
+
+.container {
+  position: fixed;
+}
+
+h1 {
+  font-family: 'Oswald', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  text-shadow: 1px 1px #000000;
+  font-size: 2em;
+}
+
+.socialButtons {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    max-height: 40px;
+}
+
+.socialButtons img {
+    opacity: 0.9;
+    width: 40px;
+}
+
+.socialButtons a:hover {
+    opacity: 0.5;
+}
+
+.socialButtons a {
+    margin-left: 4px;
+    text-decoration: none;
+}
+
+.emailLink {
+    display: inline-block;
+    vertical-align: top;
+    background: #ffffff;
+    opacity: 0.9;
+    font-family: 'Oswald', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #232323;
+    border-radius: 4.5px;
+    font-size: 20px;
+    padding: 8.5px 18px;
+}
+
+/* Video background stuff below */
+
+.home-banner .slide .video-slide {
+  background-color: #000000;
+}
+
+.home-banner.loading .video-background {
+  opacity: 0;
+}
+
+.video-background {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  padding-top: 56.25%;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: 2s opacity ease;
+  transition: 2s opacity ease;
+  opacity: 1;
+}
+
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
