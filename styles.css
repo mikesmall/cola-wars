@@ -21,13 +21,13 @@ h1 {
 .title {
   position: fixed;
   top: 20px;
-  left: 40px;
+  left: 50px;
 }
 
 .socialButtons {
     position: fixed;
     top: 20px;
-    right: 40px;
+    right: 50px;
     max-height: 48px;
 }
 
