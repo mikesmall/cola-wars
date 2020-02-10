@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Oswald');
 
 body {
-  background-color: #000000;
+  background-color: #282829;
   padding: 0 40px;
 }
 
@@ -24,28 +24,28 @@ h1 {
   left: 50px;
 }
 
-.socialButtons {
+.buttons {
     position: fixed;
     top: 20px;
     right: 50px;
     max-height: 48px;
 }
 
-.socialButtons img {
+.buttons img {
     opacity: 0.8;
     width: 48px;
 }
 
-.socialButtons a:hover {
-    opacity: 0.5;
-}
-
-.socialButtons a {
+.buttons a {
     margin-left: 8px;
     text-decoration: none;
 }
 
-.emailLink {
+.buttons a:hover {
+    opacity: 0.5;
+}
+
+.email {
     display: inline-block;
     vertical-align: top;
     background: #ffffff;
@@ -60,7 +60,7 @@ h1 {
 /* Video background stuff below */
 
 .home-banner .slide .video-slide {
-  background-color: #000000;
+  background-color: #282829;
 }
 
 .home-banner.loading .video-background {
