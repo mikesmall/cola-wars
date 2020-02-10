@@ -13,8 +13,15 @@ body {
 h1 {
   font-family: 'Oswald', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #ffffff;
-  text-shadow: 1px 1px #000000;
-  font-size: 2em;
+  /* text-shadow: 1px 1px #000000; */
+  font-size: 38px;
+  margin: 0;
+}
+
+.title {
+  position: fixed;
+  top: 50px;
+  left: 50px;
 }
 
 .socialButtons {
