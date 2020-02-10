@@ -1,6 +1,8 @@
 .container {
+  max-width: 70ch;
+  padding: 2ch;
+  margin: auto;
   z-index: 100;
-  margin: 0 auto;
 }
 
 h1 {
