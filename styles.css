@@ -50,6 +50,9 @@ main,
   width: 100%;
 }
 
+.shades a:hover {
+  opacity: 0.75;
+}
 
 
 @media (max-width: 414px) {
