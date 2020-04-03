@@ -1,8 +1,5 @@
-/* Google Fonts */
-@import url('https://fonts.googleapis.com/css?family=Lato|Oswald');
-
 body {
-  background-color: rgb(222,222,222);
+  background-color: #dedede;
   min-height: 100vh;
 }
 
@@ -52,10 +49,4 @@ main,
 
 .shades a:hover {
   opacity: 0.75;
-}
-
-
-@media (max-width: 414px) {
-
-
 }
