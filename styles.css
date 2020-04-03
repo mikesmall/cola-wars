@@ -2,79 +2,59 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Oswald');
 
 body {
-  background-color: #282829;
-  padding: 0 40px;
+  background-color: rgb(222,222,222);
+  min-height: 100vh;
 }
 
-.container {
-  position: fixed;
+main,
+.shades {
+  max-width: 70ch;
+  margin: auto;
+  padding: 0;
 }
 
-h1 {
-  font-family: 'Oswald', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #ffffff;
-  color: rgba(255,255,255,0.8);
-  font-size: 40px;
+.shades {
   margin: 0;
-}
-
-.title {
-  position: fixed;
-  top: 20px;
-  left: 50px;
-}
-
-.buttons {
-    position: fixed;
-    top: 20px;
-    right: 50px;
-    max-height: 48px;
-}
-
-.buttons img {
-    opacity: 0.8;
-    width: 48px;
-}
-
-.buttons a {
-    margin-left: 8px;
-    text-decoration: none;
-}
-
-.buttons a:hover {
-    opacity: 0.5;
-}
-
-/* Video background stuff below */
-
-.home-banner .slide .video-slide {
-  background-color: #282829;
-}
-
-.home-banner.loading .video-background {
-  opacity: 0;
-}
-
-.video-background {
   position: absolute;
   top: 50%;
-  left: 0%;
-  padding-top: 56.25%;
-  width: 100%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  -webkit-transition: 2s opacity ease;
-  transition: 2s opacity ease;
-  opacity: 1;
+  -ms-transform: translateY(-50%);
 }
 
-.video-foreground,
-.video-background iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
+.shades img {
   width: 100%;
-  height: 100%;
-  pointer-events: none;
+}
+
+footer {
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 12px 0;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  opacity: 0.6;
+}
+
+footer img {
+  margin: 4px;
+  width: 48px;
+  /* #48b8a7 */
+}
+
+footer .row {
+  white-space: nowrap;
+}
+
+@media (max-width: 414px) {
+
+
 }
