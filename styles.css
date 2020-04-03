@@ -6,6 +6,31 @@ body {
   min-height: 100vh;
 }
 
+nav {
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 12px 0;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  opacity: 0.75;
+}
+
+nav img {
+  margin: 4px;
+  width: 48px;
+  /* #48b8a7 */
+}
+
 main,
 .shades {
   max-width: 70ch;
@@ -25,34 +50,7 @@ main,
   width: 100%;
 }
 
-footer {
-  width: 100%;
-  z-index: 100;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  padding: 12px 0;
-}
 
-footer a {
-  text-decoration: none;
-}
-
-footer a:hover {
-  opacity: 0.6;
-}
-
-footer img {
-  margin: 4px;
-  width: 48px;
-  /* #48b8a7 */
-}
-
-footer .row {
-  white-space: nowrap;
-}
 
 @media (max-width: 414px) {
 
