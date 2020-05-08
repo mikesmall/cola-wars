@@ -5,15 +5,8 @@ body {
 
 nav {
   width: 100%;
-  /*
-  z-index: 100;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  */
   text-align: center;
-  margin: 12px 0;
+  margin: 20px 0 18px 0;
 }
 
 nav a {
@@ -21,12 +14,12 @@ nav a {
 }
 
 nav a:hover {
-  opacity: 0.75;
+  opacity: 0.5;
 }
 
 nav img {
-  margin: 4px;
-  width: 48px;
+  margin: 0 4px;
+  width: 50px;
 }
 
 main,
@@ -38,15 +31,9 @@ main,
 
 .shades {
   margin: 0;
-  /*
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  */
 }
 
-.shades img {
+.shades img, .bio img {
   width: 100%;
 }
 
