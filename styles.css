@@ -1,41 +1,51 @@
 /* Button/highlight colour: #48b8a7 */
 
+html {
+  box-sizing: border-box;
+  background-color: #000000;
+}
+
 body {
   background-color: #dedede;
-  min-height: 100vh;
-}
-
-nav, footer {
-  width: 100%;
-  text-align: center;
-  margin: 20px 0;
-}
-
-nav a, footer a {
-  text-decoration: none;
-}
-
-nav a:hover, footer a:hover {
-  opacity: 0.5;
-}
-
-nav img, footer img {
-  margin: 0 2px;
-  width: 50px;
-}
-
-main, .shades, .bio {
   max-width: 70ch;
+  min-height: 100vh;
   margin: auto;
   padding: 0;
 }
 
-.shades, .bio {
+.social {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.social img {
+  margin: 0 2px;
+  width: 50px;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+.social a:hover {
+  opacity: 0.5;
+}
+
+.shades {
+  padding-top: 10px;
+  padding-bottom: 18px;
+}
+
+.shades img,
+.bio img {
+  width: 100%;
+  padding: 0;
   margin: 0;
 }
 
-.shades img, .bio img {
-  width: 100%;
+.bio {
+  border-top: 2px solid rgb(224,86,145);
 }
 
 .video {
@@ -58,7 +68,7 @@ main, .shades, .bio {
 
 /* Slightly smaller social buttons for skinny phones */
 @media only screen and (max-width: 370px) {
-  nav img, footer img {
+  .social img {
     width: 44px;
   }
 }
