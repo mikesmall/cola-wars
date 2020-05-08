@@ -1,3 +1,1 @@
-Mobile-forward mini-site for Gregory Macdonald's COLA WARS
-
-made with support from [Erin MacMillan](http://github.com/macmillan2020)
+Mobile-first website for Gregory Macdonald's [COLA WARS](https://colawars666.bandcamp.com)
