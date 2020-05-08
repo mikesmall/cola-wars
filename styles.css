@@ -5,13 +5,15 @@ body {
 
 nav {
   width: 100%;
+  /*
   z-index: 100;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  */
   text-align: center;
-  padding: 12px 0;
+  margin: 12px 0;
 }
 
 nav a {
@@ -25,7 +27,6 @@ nav a:hover {
 nav img {
   margin: 4px;
   width: 48px;
-  /* #48b8a7 */
 }
 
 main,
@@ -37,10 +38,12 @@ main,
 
 .shades {
   margin: 0;
+  /*
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   -ms-transform: translateY(-50%);
+  */
 }
 
 .shades img {
@@ -49,4 +52,11 @@ main,
 
 .shades a:hover {
   opacity: 0.75;
+}
+
+@media only screen and (max-width: 370px) {
+  nav img {
+    width: 44px;
+    margin: 2px;
+  }
 }
