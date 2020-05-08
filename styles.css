@@ -5,42 +5,37 @@ body {
   min-height: 100vh;
 }
 
-nav {
+nav, footer {
   width: 100%;
   text-align: center;
-  margin: 20px 0 20px 0;
+  margin: 20px 0;
 }
 
-nav a {
+nav a, footer a {
   text-decoration: none;
 }
 
-nav a:hover {
+nav a:hover, footer a:hover {
   opacity: 0.5;
 }
 
-nav img {
+nav img, footer img {
   margin: 0 2px;
   width: 50px;
 }
 
-main,
-.shades {
+main, .shades, .bio {
   max-width: 70ch;
   margin: auto;
   padding: 0;
 }
 
-.shades {
+.shades, .bio {
   margin: 0;
 }
 
 .shades img, .bio img {
   width: 100%;
-}
-
-.shades a:hover {
-  opacity: 0.75;
 }
 
 .video {
@@ -51,17 +46,19 @@ main,
   max-width: 100%;
 }
 
-.video iframe, .video object, .video embed {
+.video iframe,
+.video object,
+.video embed {
   position: absolute;
-  top: 0; 
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
 
+/* Slightly smaller social buttons for skinny phones */
 @media only screen and (max-width: 370px) {
-  nav img {
+  nav img, footer img {
     width: 44px;
-    margin: 2px;
   }
 }
